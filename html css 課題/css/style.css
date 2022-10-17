@@ -1,0 +1,119 @@
+.firstview {
+  position: relative;
+  background: url(../img/firstview.jpg) no-repeat center/cover;
+  height: 400px;
+  width: 100vw;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  font-size: 40px;
+  color: azure;
+}
+
+
+
+.about {
+  text-align: center;
+  margin: 60px;
+  font-size: 30px;
+}
+
+.text {
+  text-align: center;
+  margin: 60px;
+  font-size: 20px;
+}
+
+.blog {
+  text-align: center;
+  margin: 60px;
+  font-size: 30px;
+
+}
+
+
+
+
+.flex__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  margin: 30px;
+
+}
+
+.card_img img {
+  width: 100%;
+}
+
+.card__content {
+  padding: 15px 25px;
+}
+
+
+
+
+.contact {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 30px;
+}
+
+
+
+
+.input {
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-bottom: 100px;
+}
+
+
+
+
+.flex {
+  display: flex;
+}
+.box1 {
+  margin-left: -60px;
+}
+.box2 {
+  margin-left: 20px;
+}
+
+
+
+.delete-btn {
+  border-radius: 6px;
+    margin: 32px auto 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 280px;
+    display: block;
+    background: #768f88;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.form-btn {
+  border-radius: 6px;
+    margin: 32px auto 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 280px;
+    display: block;
+    background: #5bc8ac;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}

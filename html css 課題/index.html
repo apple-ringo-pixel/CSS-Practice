@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML and CSS</title>
+  <!-- 以下の内容を追加します -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+
+<body>
+  <header>
+    <div class="firstview">
+      <h1 class="title">コンテンツ</h1>
+    </div>
+  </header>
+
+<div>
+
+  <h2 class="about">About</h2>
+
+
+  <p class="text">COACHTECH（コーチテック）はフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>プログラミング未経験の方でも、<strong>「独自の学習ノウハウ」</strong>でフリーランスエンジニアを目指すことができます。</p>
+
+
+</div>  
+
+
+  <h2 class="blog">ブログ</h2>
+
+
+  <div class="flex__item">
+  
+    <!-- card1 -->
+    <div class="card">
+      <div class="card_img">
+          <img src="./img/blog__eyecatch1.jpg" alt="pc_and_book">
+      </div>
+
+      <div class="card_content">
+      <h3 class="card_text">コーチテックブログのタイトルがここには入ります。</h3>
+      </div>
+    </div>
+
+<!-- card2 -->
+    <div class="card">
+      <div class="card_img">
+        <img src="./img/blog__eyecatch2.jpg" alt="">
+      </div>
+    
+      <div class="card_content">
+        <h3 class="card_text">コーチテックブログのタイトルがここには入ります。</h3>
+      </div>
+    </div>
+
+<!-- card3 -->
+    <div class="card">
+      <div class="card_img">
+        <img src="./img/blog__eyecatch3.jpg" alt="">
+      </div>
+    
+      <div class="card_content">
+        <h3 class="card_text">コーチテックブログのタイトルがここには入ります。</h3>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+    <h2 class="contact">お問い合わせ</h2>
+
+
+
+    <div class="input">
+      <form action="#">
+
+
+    <table>
+      <tr>
+        <th>名前</th>
+        <td><form action="detail.html" method="get">
+          <textarea name="textarea" cols="70"></textarea>
+        </form>
+        </td>
+      </tr>
+
+
+
+      <tr>
+        <th>メールアドレス  </th>
+        <td>
+        <form action="detail.html" method="get">
+          <textarea name="textarea" cols="70"> </textarea>
+        </form>
+        </td>
+      </tr>
+
+
+      <tr>
+        <th>用件</th>
+        <td><select name="select">
+
+          <option value="広告掲載について">広告掲載について</option>
+
+        </select></td>
+      </tr>
+
+
+
+      <tr>
+        <th class="detail">内容</th>
+        <td>
+          <form action="detail.html" method="get">
+          <textarea name="textarea" cols="70" rows="15"></textarea>
+          </form>
+        </td>
+      </tr>
+      </table>
+  
+    
+<div class="flex">
+    <div class="box1"><input type="submit" class="delete-btn" value="削除"></div>
+
+    <div class="box2"><input type="submit" class="form-btn" value="送信">
+</div>
+</form>
+
+</div>
+
+</body>
+</html>
